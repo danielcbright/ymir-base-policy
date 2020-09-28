@@ -1,0 +1,6 @@
+dev-sandbox:auto
+dev-1:auto
+dev-2:manual
+qa-1:auto
+qa-2:manual
+prod:manual

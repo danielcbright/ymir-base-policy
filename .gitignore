@@ -1,9 +1,22 @@
-.vagrant
-/cookbooks
+**/.vagrant
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.un~
 
 # Bundler
-bin/*
-.bundle/*
+**/Gemfile.lock
+**/gems.locked
+**/bin/*
+**/.bundle/*
 
-.kitchen/
-.kitchen.local.yml
+# test kitchen
+**/.kitchen
+**/kitchen.local.yml
+
+# Chef
+**/Berksfile.lock
+**/.zero-knife.rb
+**/Policyfile.lock.json

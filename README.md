@@ -1,1 +1,3 @@
-# ymir-base-policy
+# ymir-base
+
+## Basic policyfile cookbook
